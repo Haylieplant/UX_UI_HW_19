@@ -1,13 +1,22 @@
-body {
-    margin: 0;
-  }
+.inline-block{
+    display: inline-block;
+    vertical-align: 5px center;
+} 
+
+.logo{ 
+    width: 5px;
+    height: 5px;
+    padding: 1%;
+    text-align: start;}
+
+
   header {
-    background-color: #373738;
+    background-color: rgba(255, 157, 142, 0.3);
     padding: 15px;
   }
   header ul {
     float: right;
-    color: white;
+    color: #373738;
   }
   header li {
     display: inline-block;
@@ -16,19 +25,52 @@ body {
   header p {
     display: inline-block;
   }
+  h1 { 
+    display: block;
+    font-size: 96px;
+    font-family: Satisfy;
+    text-align: center;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 36px;
+    font-family: Josefin sans-serif ;
+    text-align: center;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;}
+
   .heroImg {
-    background-color: #EBEBEB;
     padding: 100px 15px;
     text-align: center;
     width: 250px ;
     height: 250px ;
   }
-  .content {
+  body{
+    background-color: rgba(255, 157, 142, 0.3);
+  }
+  
+ .content {
     max-width: 300px;
     margin: 0 auto;
     padding: 50px;
     background-color: #FFFFFF;
     text-align: center;
+  }
+
+  p{
+    font-family: Josefin Sans light;
+    font-size: 36px;
+    width: 800px;
+    margin: 500px;
+    text-align: middle;
   }
   button {
     padding: 15px;
@@ -36,9 +78,10 @@ body {
     color: white;
     font-size: 15px;
     border-radius: 4px;
+    float: right;
   }
   footer {
-    background-color: #373738;
+    background-color:  rgba(255, 157, 142, 0.3)
     padding: 5px;
     color: white;
   }
@@ -69,7 +112,7 @@ body {
   .myWork {
     padding: 60px 30px;
     padding-top: 0;
-    background-color: #EBEBEB;
+    background-color:  rgba(255, 157, 142, 0.3);
   }
   .workGrid {
     display: grid;
